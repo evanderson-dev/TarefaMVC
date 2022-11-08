@@ -5,7 +5,7 @@
 namespace TarefaMVC.Migrations
 {
     /// <inheritdoc />
-    public partial class AdicionaTabelaTarefa : Migration
+    public partial class CriaTableTarefa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,6 +18,7 @@ namespace TarefaMVC.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Data = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Concluido = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>

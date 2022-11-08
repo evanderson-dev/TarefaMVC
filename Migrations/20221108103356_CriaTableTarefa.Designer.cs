@@ -11,8 +11,8 @@ using TarefaMVC.Context;
 namespace TarefaMVC.Migrations
 {
     [DbContext(typeof(TarefaContext))]
-    [Migration("20221107213949_AdicionaTabelaTarefa")]
-    partial class AdicionaTabelaTarefa
+    [Migration("20221108103356_CriaTableTarefa")]
+    partial class CriaTableTarefa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,6 +39,9 @@ namespace TarefaMVC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")
+                        .HasColumnType("nvarchar(max)");
+                    
+                    b.Property<string>("Data")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

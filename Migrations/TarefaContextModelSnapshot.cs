@@ -37,6 +37,9 @@ namespace TarefaMVC.Migrations
 
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");
+                    
+                    b.Property<string>("Data")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
