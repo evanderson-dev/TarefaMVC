@@ -42,7 +42,7 @@ namespace TarefaMVC.Migrations
                         .HasColumnType("nvarchar(max)");
                     
                     b.Property<string>("Data")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("datetime");
 
                     b.HasKey("Id");
 

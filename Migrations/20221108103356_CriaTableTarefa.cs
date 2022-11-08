@@ -18,7 +18,7 @@ namespace TarefaMVC.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Data = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Data = table.Column<string>(type: "datetime", nullable: true),
                     Concluido = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
