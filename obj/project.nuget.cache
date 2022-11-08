@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2kVS5de7gd766IgkcBarvwJyg2mMGoZVxKka9H4ZSaMaJeinUDr8p7te3Vb6C3dAx2eWOsSkb/48/3iGMCMUug==",
+  "dgSpecHash": "DJCB20MLjbAqIjrJqQjH281u8DLnqS/CMkTWiO2m7yrCdGRqLTXgBR1MjX89HfW6013XXzAxPeADmuVexuQ1SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\TarefaMVC.csproj",
+  "projectFilePath": "C:\\Users\\axel_\\OneDrive\\Desktop\\GIT\\TarefaMVC\\TarefaMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\axel_\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\axel_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
