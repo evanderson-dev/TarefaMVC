@@ -1,0 +1,39 @@
+@model TarefaMVC.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <dl class="row"  style="border: 1px solid;">
+        <dt class="col-sm-3" style="background-color: lightgrey; border: 1px solid;">
+            @* @Html.DisplayNameFor(x => x.Titulo) *@
+            TITULO:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Titulo)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            DESCRIÇÃO:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Descricao)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            DATA:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Data)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            STATUS:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Status)
+        </dt>
+    </dl>
+</div>
+<a asp-action="Editar" asp-route-id="@Model.Id" type="button" class="btn btn-primary">Editar</a>
+<a asp-action="Index" type="button" class="btn btn-primary">Voltar</a>
