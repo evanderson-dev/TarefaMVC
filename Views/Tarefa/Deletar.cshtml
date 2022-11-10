@@ -1,0 +1,43 @@
+@model TarefaMVC.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Deletar";
+}
+
+<h1 style="color: red;">Confirme a Exclusão da Terefa</h1>
+<hr>
+
+<div>
+    <dl class="row"  style="border: 1px solid;">
+        <dt class="col-sm-3" style="background-color: lightgrey; border: 1px solid;">
+            @* @Html.DisplayNameFor(x => x.Titulo) *@
+            TITULO:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Titulo)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            DESCRIÇÃO:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Descricao)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            DATA:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Data)
+        </dt>
+        <dt class="col-sm-3" style="background-color: lightgrey;border: 1px solid;">
+            STATUS:
+        </dt>
+        <dt class="col-sm-9" style="border: 1px solid;">
+            @Html.DisplayFor(x => x.Status)
+        </dt>
+    </dl>
+</div>
+
+<form asp-action="Deletar">
+    <input type="submit" value="Deletar" class="btn btn-danger" style="width: 80px"/>
+<a asp-action="Index" type="button" class="btn btn-primary" style="width: 80px">Cancelar</a>
+</form>
