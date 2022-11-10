@@ -29,17 +29,17 @@ namespace TarefaMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("Concluido")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Descricao")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");
                     
-                    b.Property<string>("Data")
+                    b.Property<string>("Descricao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Data")
                         .HasColumnType("datetime");
+
+                    b.Property<int>("Status")
+                         .HasColumnType("int");
 
                     b.HasKey("Id");
 

@@ -24,7 +24,7 @@
                 @Html.DisplayNameFor(model => model.Data)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Concluido)
+                @Html.DisplayNameFor(model => model.Status)
             </th>
             <th></th>
         </tr>
@@ -46,7 +46,7 @@
                     @Html.DisplayFor(model => item.Data)
                 </td>
                 <td>
-                    @Html.DisplayFor(model => item.Concluido)
+                    @Html.DisplayFor(model => item.Status)
                 </td>
                 <td>
                     <a asp-action="Editar" asp-route-id="item.Id">Editar</a> |
