@@ -1,3 +1,5 @@
+@* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> *@
+
 @model IEnumerable<TarefaMVC.Models.Tarefa>
 
 @{
@@ -39,9 +41,9 @@
                     @Html.DisplayFor(model => item.Status)
                 </td>
                 <td style="border: 1px solid; text-align: center">
-                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary btn-sm" style="width: 80px;">Editar</a>
-                    <a asp-action="Detalhes" asp-route-id="@item.Id" class="btn btn-info btn-sm" style="width: 80px;">Detalhes</a>
-                    <a asp-action="Deletar" asp-route-id="@item.Id" class="btn btn-danger btn-sm" style="width: 80px;">Deletar</a>
+                    <a asp-action="Editar" asp-route-id="@item.Id" class="fa-solid fa-pen-to-square"></a>&#160
+                    <a asp-action="Detalhes" asp-route-id="@item.Id" class="fa-solid fa-circle-info"></a>&#160
+                    <a asp-action="Deletar" asp-route-id="@item.Id" class="fa-solid fa-trash-can"></a>
                 </td>
             </tr>
         }
