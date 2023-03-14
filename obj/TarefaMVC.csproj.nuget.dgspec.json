@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evanderson.santos\\Desktop\\REPOSITORIOS GIT\\TarefaMVC\\TarefaMVC.csproj": {}
+    "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\TarefaMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evanderson.santos\\Desktop\\REPOSITORIOS GIT\\TarefaMVC\\TarefaMVC.csproj": {
+    "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\TarefaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evanderson.santos\\Desktop\\REPOSITORIOS GIT\\TarefaMVC\\TarefaMVC.csproj",
+        "projectUniqueName": "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\TarefaMVC.csproj",
         "projectName": "TarefaMVC",
-        "projectPath": "C:\\Users\\evanderson.santos\\Desktop\\REPOSITORIOS GIT\\TarefaMVC\\TarefaMVC.csproj",
-        "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evanderson.santos\\Desktop\\REPOSITORIOS GIT\\TarefaMVC\\obj\\",
+        "projectPath": "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\TarefaMVC.csproj",
+        "packagesPath": "C:\\Users\\axel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\axel_\\OneDrive\\Desktop\\REGPOSITORIO GIT\\TarefaMVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\axel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
